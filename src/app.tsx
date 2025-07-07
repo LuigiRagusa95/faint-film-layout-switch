@@ -1,3 +1,5 @@
+import { Projects } from './projects';
+
 export function App() {
-  return <>App</>;
+  return <Projects />;
 }

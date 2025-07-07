@@ -1,1 +1,34 @@
 @import 'tailwindcss';
+
+:root {
+  --black: #222222;
+  --white: #ffffff;
+  --grey: #eeeeee;
+  --light-grey: #f2f2f2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  margin: auto;
+  height: 100svh;
+  overflow: clip;
+  position: relative;
+  overscroll-behavior: none;
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
